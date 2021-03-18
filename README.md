@@ -28,7 +28,6 @@ Maquettage d'un SI avec les trois VMs suivantes :
     * PHP
 
         Il faudra partir de l'image ***phpdockerio/php73-fpm*** modifiée afin d'intégrer le pilote ****php-mysql****.
-        Vous fournirez le *Dockerfile* vous ayant permis de constituer la nouvelle image.
         
 * **La VM Docker_2 hébergera un conteneur MariaDB**
     * L'image est l'image officielle
@@ -37,6 +36,7 @@ Maquettage d'un SI avec les trois VMs suivantes :
 
 * **Les attendus**
 
-    * *Vagrantfile* ayant permis le déploiement des 3 VMs
+    * Le *Vagrantfile* ayant permis le déploiement des 3 VMs
+    * Le *Dockerfile* ayant permis de modifier l'image PHP
     * Le *docker-compose.yml* utilisé sur chaque VM
     * Le *playbook* permettant la *configuration* et l'initialisation des conteneurs sur chacune des VMs.
