@@ -22,7 +22,7 @@ Maquettage d'un SI avec les trois VMs suivantes :
 * **La VM Docker_1 hébergera les deux conteneurs suivants:**
     * NGINX (*image officielle*)
         * La configuration à utiliser est fournie dans le fichier *conf/nginx.conf*.
-        * Le site est constitué du seul fichier html/index.php
+        * Le site est constitué du seul fichier *html/index.php*
         * Ces deux fichiers sont à adapter afin de les *templater* et les transmettre par Ansible avant l'initialisation des conteneurs.
         
     * PHP
