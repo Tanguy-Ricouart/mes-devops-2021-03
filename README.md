@@ -9,7 +9,7 @@ Maquettage d'un SI avec les trois VMs suivantes :
 * VM pilote Docker_1 NGINX/PHP (Debian)
 * VM pilote Docker_2 SGBD (Centos)
 
-Consignes :
+***Consignes***
 * **Les trois VMs seront déployées avec Vagrant.**
 
 * **Chaque VM disposera de deux interfaces réseau**
@@ -26,6 +26,7 @@ Consignes :
         * Ces deux fichiers sont à adapter afin de les *templater* et les transmettre par Ansible avant l'initialisation des conteneurs.
         
     * PHP
+
         Il faudra partir de l'image ***phpdockerio/php73-fpm*** modifiée afin d'intégrer le pilote ****php-mysql****.
         Vous fournirez le *Dockerfile* vous ayant permis de constituer la nouvelle image.
         
@@ -38,4 +39,4 @@ Consignes :
 
     * *Vagrantfile* ayant permis le déploiement des 3 VMs
     * Le *docker-compose.yml* utilisé sur chaque VM
-    * Le *playbook* permettant l'initialisation des conteneurs sur chacun des VMs.
+    * Le *playbook* permettant la *configuration* et l'initialisation des conteneurs sur chacune des VMs.
