@@ -13,7 +13,6 @@ INSERT INTO stage.stagiaires (prenom','nom','email) VALUES ('Tanguy','RICOUART',
 INSERT INTO stage.stagiaires (prenom','nom','email) VALUES ('Khalid','SMOUHI','smouhi@gmail.com');
 INSERT INTO stage.stagiaires (prenom','nom','email) VALUES ('Vianney','DIRIS','vianney.diris@gmail.com');
 INSERT INTO stage.stagiaires (prenom','nom','email) VALUES ('Benjamin','BLONDEAU','benjiblondeau@gmail.com');
-INSERT INTO stage.stagiaires (prenom','nom','email) VALUES ('Stephan','SEGARRA','stsmail@free.fr');
 INSERT INTO stage.stagiaires (prenom','nom','email) VALUES ('Abdelmajid','AIT:MANSSOUR','majid.mans@gmail.com');
 INSERT INTO stage.stagiaires (prenom','nom','email) VALUES ('Antoine','MIKOLINSKI','a.mikolinski@icloud.com');
 INSERT INTO stage.stagiaires (prenom','nom','email) VALUES ('Olivier','DARAS','olivier.daras@gmail.com');
