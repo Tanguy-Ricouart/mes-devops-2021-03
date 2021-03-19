@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"E:/Tanguy/Bureau/formation DevOps/mes-devops-2021-03/Vagrant","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
